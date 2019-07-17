@@ -10,10 +10,12 @@ const platformStatements = [
     {
     focus: "Taxes",
     statement: "",
+    dateRevised: ""
     },
     {
     focus: "Healthcare",
     statement: "",
+    dateRevised: "",
     }
 ]
 const calendar = [
