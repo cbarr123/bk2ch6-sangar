@@ -1,21 +1,47 @@
 const sangar = {
     Name: ["Elizabeth", "Sangar"],
     congressionalDistrict: "Tennessee District 5",
-    platformStatements: ["Taxes", "Jobs", "Infrastructure", "Health care", "Crime and enforcement"],
     donationURL: "https://www.ElizabethSangar.com/donations",
-    calendar: "",
     biography: "",
     missionStatement: "",
     registerVoteURL: "https://ovr.govote.tn.gov/",
 }
-const volunteers = {
+const platformStatements = [
+    {
+    focus: "Taxes",
+    statement: "",
+    },
+    {
+    focus: "Healthcare",
+    statement: "",
+    }
+]
+const calendar = [
+    {
+        title: "",
+        date: "",
+        staffNeeded: "",
+        address: "",
+    }
+]
+const volunteers = [
+    {
+    name: "Sally Smith",
+    address: "262 Bluebird Lane, Nashville, TN, 37167",
+    email: "ss@yahoo.com",
+    phoneNumber: "615-339-4567",
+    availability: "",
+    activities: ["telephone", "poll worker"],
+    },
+    {
     name: "",
     address: "",
     email: "",
     phoneNumber: "",
     availability: "",
     activities: [],
-}
+    }
+]
 const imageGallery = {
     headShot: "",
     familyPic: "",
